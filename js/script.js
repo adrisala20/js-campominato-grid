@@ -12,7 +12,12 @@ let bottone = document.querySelector('.btn');
 //aggiungo l'evento di ascolto al bottone
 bottone.addEventListener('click', function()) {
 
-    
+    //prendo il mio elemento da html
+    let elBox = document.getElementById('box');
+
+    //aggiungo la classe boxes 
+    elBox.classList.add ('.boxes', 'd-inline');
+
 
 
 }
