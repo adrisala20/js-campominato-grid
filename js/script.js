@@ -11,14 +11,16 @@ let elBoxes = document.getElementById('boxes');
 console.log (typeof elBoxes)
 
 // creo una funzione per creare il div da inserire dentro il div boxes
-function generatedBox (box){
+function generatedBox (){
     let elBox = document.createElement ('div');
     elBox.classList.add('box');
     return elBox;
 }
 
-console.log(generatedBox())
-elBoxes.innerHTML = (generatedBox(box))
+for(i=1 ; i < 100 ; i++){
+    let newBox = generatedBox();
+    elBoxes.appendChild(newBox);
+}
 
 //creo la variabile per prendere il bottone
 let bottone = document.querySelector('.btn');
