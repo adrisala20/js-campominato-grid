@@ -32,3 +32,5 @@ bottone.addEventListener('click', function() {
 
 
 });
+
+//mi sono bloccata, proseguo nel fine settimana
