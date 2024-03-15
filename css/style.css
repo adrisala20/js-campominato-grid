@@ -1,11 +1,12 @@
-#box {
-    margin: 0 auto;
-}
+
 .boxes {
     width: 100px;
     height: 100px;
-    border: 2px solid black;
+    border: 2px solid white;
 
+}
+body {
+    background-color: black;
 }
 main {
     margin: 0 auto;
