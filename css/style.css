@@ -1,17 +1,27 @@
-
-.box {
-    width: calc(100% / 10);
-    height: calc(100% / 10);
-    border: 2px solid white;   
-}
 body {
     background-color: black;
 }
 main {
     margin: 0 auto;
 }
-#boxes {
-    width: 1000px;
-    height: 1000px;
+/* ******* contenitore boxWrapper ***********+ */
+#boxWrapper {
+    width: 500px;
+    height: 500px;
     border: 2px solid white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*********** box small ********/
+
+.boxes {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 2px solid white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
