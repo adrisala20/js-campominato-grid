@@ -24,4 +24,9 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    cursor: crosshair;
+}
+
+.boxes.clicked{
+    color: white;
 }
